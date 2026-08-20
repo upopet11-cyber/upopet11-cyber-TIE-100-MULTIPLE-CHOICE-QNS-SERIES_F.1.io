@@ -1,0 +1,2261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1 Agriculture Revision Questions</title>
+    <style>
+        :root {
+            --primary-color: #2c5e3b;
+            --secondary-color: #e8f5e9;
+            --accent-color: #4caf50;
+            --text-color: #333333;
+            --border-color: #c8e6c9;
+            --not-reviewed-color: #d9534f;
+            --reviewed-color: #5cb85c;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f4f9f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .main-header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+        .main-header h1 {
+            color: var(--primary-color);
+            margin: 0 0 5px 0;
+            font-size: 1.8em;
+        }
+        .main-header h2 {
+            color: #555555;
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+        .question-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            overflow: hidden;
+            padding: 20px;
+        }
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .question-text {
+            font-weight: bold;
+            flex-grow: 1;
+        }
+        .status-btn {
+            background-color: var(--not-reviewed-color);
+            color: white;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+            white-space: nowrap;
+            cursor: default;
+            transition: background-color 0.2s;
+        }
+        .status-btn.reviewed {
+            background-color: var(--reviewed-color);
+        }
+        .options-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 0 15px 0;
+        }
+        .options-list li {
+            padding: 6px 10px;
+            margin-bottom: 4px;
+            border-radius: 4px;
+            background-color: #fafafa;
+            border: 1px solid #eee;
+        }
+        .reveal-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .reveal-btn:hover {
+            background-color: #1e3f27;
+        }
+        .answer-section {
+            margin-top: 15px;
+            padding: 15px;
+            background-color: var(--secondary-color);
+            border-top: 1px dashed var(--border-color);
+            border-radius: 4px;
+            display: none;
+        }
+        .question-card.active .answer-section {
+            display: block;
+        }
+        .answer-label {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+        .explanation-label {
+            font-weight: bold;
+            color: #222;
+            margin-top: 10px;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="main-header">
+        <h1>Form 1 Agriculture Revision</h1>
+        <h2>Multiple Choice Questions</h2>
+    </div>
+
+    <!-- Question 1 -->
+    <div class="question-card" id="q1">
+        <div class="question-header">
+            <div class="question-text">1. A community development officer in Tanzania is advising a group of rural farmers on how to view their farming activities. She emphasizes that farming is not just a traditional way of life, but a commercial enterprise aimed at maximizing net returns through the efficient management of land, labour, water, and capital. Which core aspect of agriculture is the officer emphasizing?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Agriculture as a pure science</li>
+            <li>B) Agriculture as a traditional art</li>
+            <li>C) Agriculture as a business</li>
+            <li>D) Agriculture as a biological study</li>
+            <li>E) Agriculture as a hobby</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Agriculture as a business</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Modern agriculture views farming not merely as a subsistence activity or traditional way of life, but as an economic enterprise designed to generate profit through optimized resource allocation.</div>
+        </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question-card" id="q2">
+        <div class="question-header">
+            <div class="question-text">2. A secondary school agriculture teacher explains to Form One students that applying chemical knowledge to manufacture and use fertilizers, as well as understanding chemical reactions for nutrient uptake in plant roots, falls under a specific relationship. Which subject is the teacher referring to?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Physics</li>
+            <li>B) Chemistry</li>
+            <li>C) Biology</li>
+            <li>D) Geography</li>
+            <li>E) Mathematics</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Chemistry</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Chemistry provides the foundational concepts needed to understand soil composition, the synthesis and application of chemical fertilizers, and the biochemical processes governing nutrient absorption in plants.</div>
+        </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question-card" id="q3">
+        <div class="question-header">
+            <div class="question-text">3. A farmer in Tanzania wants to establish a maize field measuring 10,000 m² using a standard spacing of 90 cm between rows and 30 cm between plants within a row. Following the recommended formula, what will be the correct plant population per hectare for this field?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) 1,111 plants/ha</li>
+            <li>B) 27,000 plants/ha</li>
+            <li>C) 37,037 plants/ha</li>
+            <li>D) 45,500 plants/ha</li>
+            <li>E) 10,000 plants/ha</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) 37,037 plants/ha</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Plant population is calculated by dividing the area of one hectare ($10,000 m^2$) by the product of the inter-row and intra-row spacing ($0.9 m \times 0.3 m = 0.27 m^2$), yielding approximately 37,037 plants.</div>
+        </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question-card" id="q4">
+        <div class="question-header">
+            <div class="question-text">4. An agricultural research officer is studying the supply and demand relationships of farm products, managing cooperatives, evaluating agricultural projects, and analyzing profits and losses. Which major branch of agriculture does this officer specialize in?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Crop production</li>
+            <li>B) Animal production</li>
+            <li>C) Soil science</li>
+            <li>D) Agricultural mechanisation</li>
+            <li>E) Agricultural economics</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: E) Agricultural economics</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Agricultural economics deals with farm management, market dynamics, pricing, resource distribution, and the financial evaluation of agricultural projects.</div>
+        </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question-card" id="q5">
+        <div class="question-header">
+            <div class="question-text">5. During a regional economic assessment in Tanzania, experts noted that the agricultural sector contributes significantly to the national income, employs the majority of the population, and provides domestic industries with raw materials. According to the Bank of Tanzania Annual Report data cited in the text, approximately what percentage of the national income (Gross Domestic Product) did the agricultural sector contribute in 2019?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) 14.3 percent</li>
+            <li>B) 28.6 percent</li>
+            <li>C) 42.0 percent</li>
+            <li>D) 65.0 percent</li>
+            <li>E) 96.0 percent</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) 14.3 percent</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>According to official figures referenced from the Bank of Tanzania Annual Report, agriculture accounted for roughly 14.3 percent of the national GDP during that period.</div>
+        </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question-card" id="q6">
+        <div class="question-header">
+            <div class="question-text">6. A farmer is planning seasonal farm operations such as land preparation, planting, and harvesting times by analysing weather patterns and climatic conditions. Which school subject provides the core knowledge and skills required for this planning?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Physics</li>
+            <li>B) Chemistry</li>
+            <li>C) Geography</li>
+            <li>D) Home Economics</li>
+            <li>E) Business Studies</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Geography</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Geography provides essential insights into climate, weather systems, rainfall distribution, and topography, which dictate agricultural calendars and zoning.</div>
+        </div>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question-card" id="q7">
+        <div class="question-header">
+            <div class="question-text">7. A household head is planning meals to ensure that family members receive a nutritious and balanced diet using food produced from the farm. Which academic subject directly covers the management of household resources and best use of food?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Biology</li>
+            <li>B) Chemistry</li>
+            <li>C) Mathematics</li>
+            <li>D) Home Economics</li>
+            <li>E) Physics</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: D) Home Economics</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Home Economics focuses on nutrition, food preparation, diet balancing, and effective management of household resources derived from agricultural output.</div>
+        </div>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question-card" id="q8">
+        <div class="question-header">
+            <div class="question-text">8. An agricultural extension officer is training farmers on how to calculate appropriate animal ratios, such as the number of hens that can be served by one cock, and determining exact plant populations per unit area. Which subject's fundamental operations are being applied?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Geography</li>
+            <li>B) Mathematics</li>
+            <li>C) Physics</li>
+            <li>D) History</li>
+            <li>E) Chemistry</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Mathematics</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Mathematical calculations are indispensable in agriculture for working out seeding rates, stocking ratios, fertilizer quantities, and farm area measurements.</div>
+        </div>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question-card" id="q9">
+        <div class="question-header">
+            <div class="question-text">9. When tracing the linguistic origin of the term "Agriculture," a student discovers it comes from two Latin words: "ager" and "cultura." What do these two words literally mean?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Live and stock</li>
+            <li>B) Land and cultivation</li>
+            <li>C) Science and art</li>
+            <li>D) Plant and animal</li>
+            <li>E) Rural and urban</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Land and cultivation</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Linguistically, "ager" translates to land or field, and "cultura" translates to cultivation or tilling, combining to mean the cultivation of land.</div>
+        </div>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question-card" id="q10">
+        <div class="question-header">
+            <div class="question-text">10. A national agricultural planner is reviewing the total land resources of Tanzania. Out of the total 94.5 million hectares of land available in the country, how many hectares are officially classified as arable land according to the 2016/17 Annual Agriculture Sample Survey report?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) 2.3 million hectares</li>
+            <li>B) 26.0 million hectares</li>
+            <li>C) 44.0 million hectares</li>
+            <li>D) 50.0 million hectares</li>
+            <li>E) 94.5 million hectares</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) 44.0 million hectares</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>National agricultural surveys establish that out of the total land mass, approximately 44 million hectares are classified as arable land suitable for crop farming.</div>
+        </div>
+    </div>
+
+    <!-- Question 11 -->
+    <div class="question-card" id="q11">
+        <div class="question-header">
+            <div class="question-text">11. A student is classifying crops based on their specific uses and notes that crops like coffee, tea, and cocoa are grown for their leaves or seeds used to make refreshment drinks. Into which use-based category do these crops fall?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Cereal crops</li>
+            <li>B) Pulses</li>
+            <li>C) Beverage crops</li>
+            <li>D) Oil crops</li>
+            <li>E) Fibre crops</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Beverage crops</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Beverage crops encompass plants whose products are processed to create stimulating or refreshing non-alcoholic drinks, such as tea, coffee, and cocoa.</div>
+        </div>
+    </div>
+
+    <!-- Question 12 -->
+    <div class="question-card" id="q12">
+        <div class="question-header">
+            <div class="question-text">12. A farmer is selecting crops that belong to the family Leguminoseae, characterized by root nodules containing Rhizobium bacteria that fix atmospheric nitrogen into the soil. Which of the following crops chosen by the farmer belongs to this group?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Maize</li>
+            <li>B) Common bean</li>
+            <li>C) Sugar cane</li>
+            <li>D) Sunflower</li>
+            <li>E) Cotton</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Common bean</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Common beans are legumes (family Leguminoseae) that house symbiotic nitrogen-fixing bacteria in their root nodules, enhancing soil fertility naturally.</div>
+        </div>
+    </div>
+
+    <!-- Question 13 -->
+    <div class="question-card" id="q13">
+        <div class="question-header">
+            <div class="question-text">13. A crop production specialist is analyzing the life span of various agricultural crops. He identifies crops that complete their life cycle within a period not exceeding one year, such as paddy, maize, and common beans. What are these crops called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Biennial crops</li>
+            <li>B) Perennial crops</li>
+            <li>C) Annual crops</li>
+            <li>D) Asexually propagated crops</li>
+            <li>E) Ornamental crops</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Annual crops</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Annual crops complete their entire growth cycle—from seed germination to seed production and death—within one single growing season or year.</div>
+        </div>
+    </div>
+
+    <!-- Question 14 -->
+    <div class="question-card" id="q14">
+        <div class="question-header">
+            <div class="question-text">14. An agronomist is examining the mode of pollination for a new crop variety where pollen transfer occurs from one flower to the stigma of another flower on a separate plant, as seen in maize and avocados. How is this mode of pollination classified?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Self-pollination</li>
+            <li>B) Cross-pollination</li>
+            <li>C) Asexual propagation</li>
+            <li>D) Vegetative reproduction</li>
+            <li>E) Monocotyledonous pollination</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Cross-pollination</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Cross-pollination involves the transfer of pollen grains from the anther of one flower to the stigma of a flower on a completely different plant of the same species.</div>
+        </div>
+    </div>
+
+    <!-- Question 15 -->
+    <div class="question-card" id="q15">
+        <div class="question-header">
+            <div class="question-text">15. A botany student is writing the scientific name of the common bean in a research report. Following the formal rules of botanical nomenclature where the generic name begins with a capital letter, the specific epithet with a small letter, and both parts are underlined or italicized, how should it appear when typed?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) PHASEOLUS VULGARIS</li>
+            <li>B) Phaseolus Vulgaris</li>
+            <li>C) phaseolus vulgaris</li>
+            <li>D) Phaseolus vulgaris</li>
+            <li>E) VULGARIS phaseolus</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: D) Phaseolus vulgaris</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Binomial nomenclature rules dictate that the genus name starts with a capital letter and the specific epithet is entirely lowercase, with the entire binomial italicized or underlined.</div>
+        </div>
+    </div>
+
+    <!-- Question 16 -->
+    <div class="question-card" id="q16">
+        <div class="question-header">
+            <div class="question-text">16. A farmer is looking for special crops that can be grown for the production of fuel to be used as an additive or replacement for petroleum products. Which crop mentioned in the text serves this purpose?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Jatropha</li>
+            <li>B) Pyrethrum</li>
+            <li>C) Hibiscus</li>
+            <li>D) Ginger</li>
+            <li>E) Cotton</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) Jatropha</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Jatropha seeds yield oil that can be processed into biodiesel, making it a prominent energy crop used as an alternative fuel source.</div>
+        </div>
+    </div>
+
+    <!-- Question 17 -->
+    <div class="question-card" id="q17">
+        <div class="question-header">
+            <div class="question-text">17. A field officer is inspecting crops grown specifically for their milky sap called latex, which is used in manufacturing different types of rubber products. Which crop is the primary example of this category?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Sisal</li>
+            <li>B) Rubber tree</li>
+            <li>C) Castor bean</li>
+            <li>D) Sunflower</li>
+            <li>E) Cotton</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Rubber tree</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Rubber trees (Hevea brasiliensis) are cultivated primarily for their latex, which is tapped and processed into commercial rubber products.</div>
+        </div>
+    </div>
+
+    <!-- Question 18 -->
+    <div class="question-card" id="q18">
+        <div class="question-header">
+            <div class="question-text">18. A researcher is categorizing plants based on their botanical subdivision. He notes that crops like maize, wheat, and sugar cane produce seeds within a subdivision characterized by seeds enclosed in ovaries, specifically having a single cotyledon. To which class do they belong?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Dicotyledons</li>
+            <li>B) Monocotyledons</li>
+            <li>C) Spermatophytes</li>
+            <li>D) Leguminoseae</li>
+            <li>E) Gramineae</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Monocotyledons</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Monocotyledonous plants possess seeds containing a single seed leaf (cotyledon), parallel leaf venation, and floral parts usually in multiples of three.</div>
+        </div>
+    </div>
+
+    <!-- Question 19 -->
+    <div class="question-card" id="q19">
+        <div class="question-header">
+            <div class="question-text">19. A farmer wants to grow crops that store food primarily in their modified roots or stems, such as cassava, sweet potatoes, yams, and round potatoes. Which use-based category do these crops belong to?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Cereal crops</li>
+            <li>B) Root/Tuber and stem crops</li>
+            <li>C) Forage crops</li>
+            <li>D) Spice crops</li>
+            <li>E) Medicinal crops</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Root/Tuber and stem crops</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Root, tuber, and stem crops accumulate large reserves of carbohydrates in underground specialized organs, providing staple energy sources.</div>
+        </div>
+    </div>
+
+    <!-- Question 20 -->
+    <div class="question-card" id="q20">
+        <div class="question-header">
+            <div class="question-text">20. A student is examining crop life spans and notes that certain crops have a life span exceeding two years, such as bananas, coffee, and tea. How are these crops classified?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Annual crops</li>
+            <li>B) Biennial crops</li>
+            <li>C) Perennial crops</li>
+            <li>D) Seasonal crops</li>
+            <li>E) Ephemeral crops</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Perennial crops</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Perennial crops are plants that live for multiple years, continuing to grow, flower, and produce yields over several seasons.</div>
+        </div>
+    </div>
+
+    <!-- Question 21 -->
+    <div class="question-card" id="q21">
+        <div class="question-header">
+            <div class="question-text">21. A commercial farmer decides to practice mono-cropping (continuous cropping) by growing only one type of crop on a specific piece of land over a long period. What is a major disadvantage of this system as highlighted in the text?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) It makes farm mechanization extremely difficult.</li>
+            <li>B) It requires no labor during harvesting.</li>
+            <li>C) If the crop fails due to weather or pests, the farmer is likely to get a poor harvest.</li>
+            <li>D) It automatically increases soil nitrogen without fertilizers.</li>
+            <li>E) It completely eliminates the need for weed control.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) If the crop fails due to weather or pests, the farmer is likely to get a poor harvest.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Relying on a single crop leaves the entire farming enterprise vulnerable to total failure if specific pests, diseases, or adverse weather conditions strike.</div>
+        </div>
+    </div>
+
+    <!-- Question 22 -->
+    <div class="question-card" id="q22">
+        <div class="question-header">
+            <div class="question-text">22. A smallholder farmer practices mixed cropping by growing two or more crops simultaneously in the same field without any distinct row arrangement. What is one of the primary advantages of this practice?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) It makes the application of specific fertilizers very easy.</li>
+            <li>B) It reduces the risk of crop failure due to environmental stress.</li>
+            <li>C) It completely automates the harvesting process.</li>
+            <li>D) It allows precise tractor spraying for individual crops.</li>
+            <li>E) It eliminates all competition among resources.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) It reduces the risk of crop failure due to environmental stress.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Mixed cropping diversifies production on the same land area, ensuring that if one crop suffers, others may survive and yield output.</div>
+        </div>
+    </div>
+
+    <!-- Question 23 -->
+    <div class="question-card" id="q23">
+        <div class="question-header">
+            <div class="question-text">23. An agricultural extension worker advises a farmer to adopt inter-cropping, where a main crop and an inter-crop are grown simultaneously with distinct row arrangements. According to the principles of inter-cropping, what should the inter-crop preferably be?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Another heavy-feeder cereal crop</li>
+            <li>B) A non-leguminous weed species</li>
+            <li>C) A legume for maintaining soil fertility and productivity</li>
+            <li>D) A deep-rooted tree species that blocks sunlight</li>
+            <li>E) An ornamental flower with high water demands</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) A legume for maintaining soil fertility and productivity</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Combining cereals with legumes in inter-cropping optimizes space while allowing nitrogen fixation to sustain and enrich soil nutrient levels.</div>
+        </div>
+    </div>
+
+    <!-- Question 24 -->
+    <div class="question-card" id="q24">
+        <div class="question-header">
+            <div class="question-text">24. A farmer implements a structured crop rotation program on his land, alternating heavy feeder crops with light feeder crops, and alternating deep-rooted crops with shallow-rooted crops. What is a primary benefit of including legumes like groundnuts or beans in this rotation?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) They increase soil acidity to kill earthworms.</li>
+            <li>B) They fix nitrogen in the soil and release it when residues decay.</li>
+            <li>C) They prevent any form of air movement in the soil.</li>
+            <li>D) They attract insect pests away from cereals.</li>
+            <li>E) They completely stop weed seed germination.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) They fix nitrogen in the soil and release it when residues decay.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Legumes build up soil nitrogen through symbiotic bacteria, which becomes available for subsequent crops in the rotation cycle.</div>
+        </div>
+    </div>
+
+    <!-- Question 25 -->
+    <div class="question-card" id="q25">
+        <div class="question-header">
+            <div class="question-text">25. A farmer is planting a field with crops that have very small seeds which cannot be easily counted or managed individually during planting, choosing to scatter them across the field by hand. What is this cropping pattern called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Row cropping</li>
+            <li>B) Broadcasting</li>
+            <li>C) Inter-cropping</li>
+            <li>D) Mixed cropping</li>
+            <li>E) Monoculture</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Broadcasting</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Broadcasting involves randomly scattering seeds across the prepared seedbed surface by hand or mechanical spreader.</div>
+        </div>
+    </div>
+
+    <!-- Question 26 -->
+    <div class="question-card" id="q26">
+        <div class="question-header">
+            <div class="question-text">26. A farm manager is setting up a mechanized maize field and ensures that seeds are planted in a systematic distance, maintaining specific inter-row and intra-row spacing. What is this cropping pattern called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Broadcasting</li>
+            <li>B) Fallowing</li>
+            <li>C) Row cropping</li>
+            <li>D) Shifting cultivation</li>
+            <li>E) Random seeding</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Row cropping</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Row cropping places seeds in distinct, parallel lines at regulated intervals, facilitating weeding, spraying, and mechanical harvesting.</div>
+        </div>
+    </div>
+
+    <!-- Question 27 -->
+    <div class="question-card" id="q27">
+        <div class="question-header">
+            <div class="question-text">27. In a crop rotation diagram shown in the text, a farmer sequences different crops across four successive years. If Year 1 is maize, Year 2 is cowpeas, and Year 3 is sunflower, what is designated for Year 4 in the textbook's example?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Continuous maize</li>
+            <li>B) Fallow</li>
+            <li>C) Piggery shelter</li>
+            <li>D) Permanent pasture</li>
+            <li>E) Horticultural nursery</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Fallow</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>In the standard textbook rotation model, a rest or fallow period is integrated to allow soil biological recovery and fertility restoration.</div>
+        </div>
+    </div>
+
+    <!-- Question 28 -->
+    <div class="question-card" id="q28">
+        <div class="question-header">
+            <div class="question-text">28. A farmer practicing mono-cropping wants to ensure high yields and minimize failure risks. According to the text, which two soil parameters must be carefully considered before using this system?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Soil color and temperature</li>
+            <li>B) Soil fertility and soil moisture level</li>
+            <li>C) Soil altitude and slope angle</li>
+            <li>D) Soil electrical conductivity and magnetic field</li>
+            <li>E) Soil stoniness and earthworm count</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Soil fertility and soil moisture level</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Sustaining a single crop requires adequate nutrient availability and moisture retention capacity in the soil profile to prevent rapid depletion.</div>
+        </div>
+    </div>
+
+    <!-- Question 29 -->
+    <div class="question-card" id="q29">
+        <div class="question-header">
+            <div class="question-text">29. When evaluating different cropping systems, an agricultural officer notes that a major disadvantage of inter-cropping is:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) It completely ruins soil structure.</li>
+            <li>B) Mechanisation becomes difficult.</li>
+            <li>C) It prevents any form of pest reduction.</li>
+            <li>D) It eliminates the bonus crop yield.</li>
+            <li>E) It requires zero labor input.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Mechanisation becomes difficult.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Because multiple crop species with different spacings and traits grow together, using heavy machinery like tractors for weeding or harvesting becomes complex.</div>
+        </div>
+    </div>
+
+    <!-- Question 30 -->
+    <div class="question-card" id="q30">
+        <div class="question-header">
+            <div class="question-text">30. A student is studying the criteria used to classify cropping systems. Which of the following is explicitly listed in the text as one of the key criteria?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) The market price of the harvested produce</li>
+            <li>B) The political affiliation of the farm owner</li>
+            <li>C) The capacity of plants in using nutrients in the soil</li>
+            <li>D) The brand name of the tractor used</li>
+            <li>E) The distance from the farm to the capital city</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) The capacity of plants in using nutrients in the soil</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Cropping system design relies heavily on how plants utilize soil nutrients (e.g., pairing heavy feeders with light feeders or nitrogen fixers).</div>
+        </div>
+    </div>
+
+    <!-- Question 31 -->
+    <div class="question-card" id="q31">
+        <div class="question-header">
+            <div class="question-text">31. A pastoralist in Tanzania explains to his son that the process of adapting wild animals for human use, which began when hunting became unpredictable, is known as:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Domestication</li>
+            <li>B) Castration</li>
+            <li>C) Mechanisation</li>
+            <li>D) Hybridization</li>
+            <li>E) Silaging</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) Domestication</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Domestication is the evolutionary and management process through which wild species are brought under human control for breeding and economic utility.</div>
+        </div>
+    </div>
+
+    <!-- Question 32 -->
+    <div class="question-card" id="q32">
+        <div class="question-header">
+            <div class="question-text">32. A university researcher is studying various scientific disciplines associated with livestock production. She investigates genetics for selecting breeding stock, entomology for studying insects, parasitology for parasites, and pathology for animal diseases. How is livestock production classified due to these scientific investigations?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Purely as an art</li>
+            <li>B) As an art and a science</li>
+            <li>C) As a branch of soil science</li>
+            <li>D) As a mechanical engineering sub-sector</li>
+            <li>E) As a commercial trading hobby</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) As an art and a science</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Livestock production combines practical husbandry skills (art) with rigorous biological, veterinary, and genetic principles (science).</div>
+        </div>
+    </div>
+
+    <!-- Question 33 -->
+    <div class="question-card" id="q33">
+        <div class="question-header">
+            <div class="question-text">33. A livestock officer is categorizing cattle based on their production purpose. Cattle that are kept exclusively for meat production and slaughtered after reaching desired size and weight are referred to as:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Dairy cattle</li>
+            <li>B) Beef cattle</li>
+            <li>C) Dual purpose cattle</li>
+            <li>D) Draught cattle</li>
+            <li>E) Oxen</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Beef cattle</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Beef cattle breeds are selected and managed specifically for high-efficiency meat production and rapid muscle growth.</div>
+        </div>
+    </div>
+
+    <!-- Question 34 -->
+    <div class="question-card" id="q34">
+        <div class="question-header">
+            <div class="question-text">34. A poultry farmer is managing a flock of chickens. Those specific chickens kept primarily for laying eggs from approximately five to six months of age are known as:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Broilers</li>
+            <li>B) Layers</li>
+            <li>C) Capons</li>
+            <li>D) Dual purpose poultry</li>
+            <li>E) Cockerels</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Layers</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Layers are specialized poultry breeds reared for optimal commercial egg production starting at point-of-lay age.</div>
+        </div>
+    </div>
+
+    <!-- Question 35 -->
+    <div class="question-card" id="q35">
+        <div class="question-header">
+            <div class="question-text">35. A livestock keeper is raising pigs and aims to slaughter them when they reach a specific weight category defined as between 50 kg and 70 kg. What is this category of pig called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Cutter</li>
+            <li>B) Baconer</li>
+            <li>C) Porker</li>
+            <li>D) Heavy hog</li>
+            <li>E) Larder</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Porker</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A porker is a market pig raised and slaughtered at a lighter weight range (typically 50 to 70 kg) for fresh pork consumption.</div>
+        </div>
+    </div>
+
+    <!-- Question 36 -->
+    <div class="question-card" id="q36">
+        <div class="question-header">
+            <div class="question-text">36. A sheep farmer is distinguishing between different types of sheep based on their products. Sheep that are specifically kept for wool production are called:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Mutton sheep</li>
+            <li>B) Woollen sheep</li>
+            <li>C) Dual purpose sheep</li>
+            <li>D) Hair sheep</li>
+            <li>E) Ruminant wethers</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Woollen sheep</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Woollen sheep breeds are bred specifically for the commercial production of quality fleece used in textile manufacturing.</div>
+        </div>
+    </div>
+
+    <!-- Question 37 -->
+    <div class="question-card" id="q37">
+        <div class="question-header">
+            <div class="question-text">37. A rural development worker notes that certain draught animals such as camels, oxen, and donkeys are heavily utilized by farmers in rural areas for a specific primary farm operation. What is this operation?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Milking dairy cows</li>
+            <li>B) Ploughing fields</li>
+            <li>C) Constructing charcoal coolers</li>
+            <li>D) Spraying agro-chemicals</li>
+            <li>E) Weeding row crops</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Ploughing fields</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Draught animals provide tractive power for pulling farm implements like ploughs and carts during land preparation and transport.</div>
+        </div>
+    </div>
+
+    <!-- Question 38 -->
+    <div class="question-card" id="q38">
+        <div class="question-header">
+            <div class="question-text">38. A pig farmer is raising animals for producing fat, which is commonly called lard. What is a pig kept specifically for this purpose called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Porker</li>
+            <li>B) Baconer</li>
+            <li>C) Larder</li>
+            <li>D) Cutter</li>
+            <li>E) Heavy hog</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Larder</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Larder pigs are selected for producing high volumes of fat (lard) for culinary and industrial applications.</div>
+        </div>
+    </div>
+
+    <!-- Question 39 -->
+    <div class="question-card" id="q39">
+        <div class="question-header">
+            <div class="question-text">39. A student is studying the classification of poultry birds. Which of the following is explicitly classified under poultry in the text alongside chickens, ducks, and turkeys?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Rabbits</li>
+            <li>B) Guinea fowls</li>
+            <li>C) Donkeys</li>
+            <li>D) Pigs</li>
+            <li>E) Sheep</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Guinea fowls</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Guinea fowls are domesticated bird species grouped under poultry alongside standard fowl, ducks, geese, and turkeys.</div>
+        </div>
+    </div>
+
+    <!-- Question 40 -->
+    <div class="question-card" id="q40">
+        <div class="question-header">
+            <div class="question-text">40. A livestock expert is analyzing the slaughter weight categories of pigs. If a pig is categorized as a "baconer," what is its designated slaughter weight range?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) 50 - 70 kg</li>
+            <li>B) 71 - 80 kg</li>
+            <li>C) 81 - 95 kg</li>
+            <li>D) 110 - 130 kg</li>
+            <li>E) 140 - 160 kg</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) 71 - 80 kg</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>In standard livestock classification frameworks, baconers are heavier than porkers, designated for bacon curing within the 71 to 80 kg range.</div>
+        </div>
+    </div>
+
+    <!-- Question 41 -->
+    <div class="question-card" id="q41">
+        <div class="question-header">
+            <div class="question-text">41. A livestock officer in Tanzania is explaining the difference between indigenous and exotic cattle breeds to farmers. He notes that indigenous breeds like the Zebu are very resistant to local diseases, whereas exotic temperate dairy breeds imported from Europe belong to a specific scientific class of humpless cattle. What is this class called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Bos-indicus</li>
+            <li>B) Bos-taurus</li>
+            <li>C) Gallus gallus</li>
+            <li>D) Sus scrofa</li>
+            <li>E) Sanga group</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Bos-taurus</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Bos taurus represents the European humpless cattle breeds known for high milk or beef production in temperate climates.</div>
+        </div>
+    </div>
+
+    <!-- Question 42 -->
+    <div class="question-card" id="q42">
+        <div class="question-header">
+            <div class="question-text">42. A dairy farmer is inspecting his cows, which originate from Holland and are characterized by distinct black and white markings and a high milk yield of up to 4,550 litres per lactation period. Which breed of cattle is this?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Jersey</li>
+            <li>B) Guernsey</li>
+            <li>C) Ayrshire</li>
+            <li>D) Friesian</li>
+            <li>E) Sahiwal</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: D) Friesian</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Friesian (Holstein-Friesian) cattle are renowned worldwide for their iconic black-and-white patterns and massive milk production volumes.</div>
+        </div>
+    </div>
+
+    <!-- Question 43 -->
+    <div class="question-card" id="q43">
+        <div class="question-header">
+            <div class="question-text">43. A beef cattle rancher in Tanzania is looking for an exotic beef breed that originates from England, features a white face with a red body, and can reach an average mature body weight of 1,000 kg. Which breed matches this description?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Aberdeen Angus</li>
+            <li>B) Hereford</li>
+            <li>C) Santa Gertrudis</li>
+            <li>D) Brahman</li>
+            <li>E) Charolais</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Hereford</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Herefords are easily recognized by their distinct deep red bodies and white faces, prized for robust beef conformation and hardiness.</div>
+        </div>
+    </div>
+
+    <!-- Question 44 -->
+    <div class="question-card" id="q44">
+        <div class="question-header">
+            <div class="question-text">44. A poultry producer wants to keep a light exotic chicken breed that is kept exclusively for egg production, is active, weighs up to 2 kg, and does not undergo brooding. Which of the following breeds fits this profile?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Light Sussex</li>
+            <li>B) White Leghorn</li>
+            <li>C) Cornish White</li>
+            <li>D) New Hampshire Red</li>
+            <li>E) Black Australorp</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) White Leghorn</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The White Leghorn is a lightweight Mediterranean bird bred for intensive commercial egg production with high feed-to-egg conversion efficiency.</div>
+        </div>
+    </div>
+
+    <!-- Question 45 -->
+    <div class="question-card" id="q45">
+        <div class="question-header">
+            <div class="question-text">45. A pig farmer is acquiring breeding stock and selects a breed originating from Denmark that is white in colour, has a long and slim body, short legs, floppy ears, and is highly prolific. Which pig breed is this?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Large White</li>
+            <li>B) Saddleback</li>
+            <li>C) Landrace</li>
+            <li>D) Hampshire</li>
+            <li>E) Yorkshire</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Landrace</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Landrace pigs are distinguished by their elongated white bodies, heavy drooping ears, and exceptional litter sizes.</div>
+        </div>
+    </div>
+
+    <!-- Question 46 -->
+    <div class="question-card" id="q46">
+        <div class="question-header">
+            <div class="question-text">46. A dairy goat farmer is evaluating milk goat breeds and is interested in one that originates from Switzerland, is brown in colour with medium body size and erect ears, and has an average body weight of 60 kg at maturity. Which breed is this?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Anglo-Nubian</li>
+            <li>B) Toggenburg</li>
+            <li>C) Alpine</li>
+            <li>D) Saanen</li>
+            <li>E) Norwegian</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Toggenburg</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Toggenburg goats originate from Switzerland, recognizable by their brown coats, white facial stripes, and steady milk yields.</div>
+        </div>
+    </div>
+
+    <!-- Question 47 -->
+    <div class="question-card" id="q47">
+        <div class="question-header">
+            <div class="question-text">47. An agricultural researcher is studying the wild ancestor of all domestic chicken species. According to the text, what is the wild ancestor?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Grey Jungle Fowl (Gallus sonneratti)</li>
+            <li>B) Red Jungle Fowl (Gallus gallus)</li>
+            <li>C) Ceylon Jungle Fowl (Gallus lafayetti)</li>
+            <li>D) Java Jungle Fowl (Gallus varius)</li>
+            <li>E) Mallard duck</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Red Jungle Fowl (Gallus gallus)</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Genetic and historical evidence confirms that modern domestic chickens descended directly from the wild Red Jungle Fowl.</div>
+        </div>
+    </div>
+
+    <!-- Question 48 -->
+    <div class="question-card" id="q48">
+        <div class="question-header">
+            <div class="question-text">48. A cattle breeder in Tanzania is developing a dual-purpose cattle breed suitable for local conditions. Which cattle breed listed in the text originates specifically from Mpwapwa, Tanzania?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Sahiwal</li>
+            <li>B) Redpoll</li>
+            <li>C) Simmental</li>
+            <li>D) Mpwapwa</li>
+            <li>E) Boran</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: D) Mpwapwa</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The Mpwapwa breed was developed in Tanzania specifically as a dual-purpose cattle strain adapted to local tropical environments.</div>
+        </div>
+    </div>
+
+    <!-- Question 49 -->
+    <div class="question-card" id="q49">
+        <div class="question-header">
+            <div class="question-text">49. A goat farmer is raising animals specifically for mohair (hair) production. Which of the following goat breeds is characterized by bearing long hair and being raised for this purpose?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Jumnapari</li>
+            <li>B) Angora</li>
+            <li>C) Toggenburg</li>
+            <li>D) Saanen</li>
+            <li>E) Small East African goat</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Angora</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Angora goats produce lustrous, long coats of hair known as mohair, which is harvested for high-end textile production.</div>
+        </div>
+    </div>
+
+    <!-- Question 50 -->
+    <div class="question-card" id="q50">
+        <div class="question-header">
+            <div class="question-text">50. A rancher is reviewing exotic beef breeds and identifies a breed originating from France that is characterized by a large body size, creamy colour, fast growth under good management, and an average mature weight of 1,000 kg. Which breed is this?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Galloway</li>
+            <li>B) Charolais</li>
+            <li>C) Brahman</li>
+            <li>D) Aberdeen Angus</li>
+            <li>E) Santa Gertrudis</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Charolais</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Charolais cattle are a large French beef breed distinguished by their white or creamy coats and heavy muscular frames.</div>
+        </div>
+    </div>
+
+    <!-- Question 51 -->
+    <div class="question-card" id="q51">
+        <div class="question-header">
+            <div class="question-text">51. A commercial livestock keeper confines his pigs and dairy cows inside an enclosed shelter all the time, providing all feed and water within the facility. What livestock farming system is he practicing?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Extensive system</li>
+            <li>B) Semi-intensive system</li>
+            <li>C) Intensive system</li>
+            <li>D) Nomadic pastoralism</li>
+            <li>E) Fallow grazing</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Intensive system</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The intensive farming system involves total housing and confinement of livestock, where feed, water, and healthcare are entirely supplied indoors.</div>
+        </div>
+    </div>
+
+    <!-- Question 52 -->
+    <div class="question-card" id="q52">
+        <div class="question-header">
+            <div class="question-text">52. A livestock farmer allows his animals to stay and be fed in an enclosed area for part of the time, and then lets them move outside to search for natural vegetation and supplements for a limited period. What is this farming system called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Intensive livestock farming system</li>
+            <li>B) Semi-intensive livestock farming system</li>
+            <li>C) Extensive livestock farming system</li>
+            <li>D) Pure mono-cropping system</li>
+            <li>E) Zero-grazing housing system</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Semi-intensive livestock farming system</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Semi-intensive systems blend indoor confinement with controlled outdoor access or grazing paddocks.</div>
+        </div>
+    </div>
+
+    <!-- Question 53 -->
+    <div class="question-card" id="q53">
+        <div class="question-header">
+            <div class="question-text">53. A pastoralist lets his cattle move freely over large areas to search for feed and water throughout the day, returning them to an enclosed shelter only in the evening. What are the primary characteristics of this extensive livestock farming system?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) High investment cost and high labour intensity</li>
+            <li>B) Low investment cost and low labour intensity</li>
+            <li>C) Small production area required and easy individual animal monitoring</li>
+            <li>D) High productivity per unit of land and disease control</li>
+            <li>E) Complete confinement with automated feeding troughs</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Low investment cost and low labour intensity</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Extensive systems rely on natural pastures over vast land tracts, requiring minimal capital infrastructure and lower daily operational labor.</div>
+        </div>
+    </div>
+
+    <!-- Question 54 -->
+    <div class="question-card" id="q54">
+        <div class="question-header">
+            <div class="question-text">54. A livestock extension officer is advising a farmer on factors to consider when selecting a suitable livestock farming system. If a farmer has very limited space near an urban settlement, which system is most appropriate to recommend?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Extensive system</li>
+            <li>B) Semi-intensive system</li>
+            <li>C) Intensive system</li>
+            <li>D) Open range grazing system</li>
+            <li>E) Nomadic wandering system</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Intensive system</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Where land is scarce and expensive (such as near urban centers), intensive zero-grazing or housing systems maximize output per unit area.</div>
+        </div>
+    </div>
+
+    <!-- Question 55 -->
+    <div class="question-card" id="q55">
+        <div class="question-header">
+            <div class="question-text">55. A farmer is evaluating the strengths and weaknesses of keeping exotic dairy breeds versus indigenous breeds. Why are exotic dairy breeds typically kept under an intensive system rather than an extensive system?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) They have large horns that prevent them from walking.</li>
+            <li>B) They are not tolerant to diseases and severity of local environmental conditions.</li>
+            <li>C) They prefer eating only kitchen wastes outdoors.</li>
+            <li>D) They require massive open spaces to run fast.</li>
+            <li>E) They produce zero milk when confined.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) They are not tolerant to diseases and severity of local environmental conditions.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Exotic dairy cattle lack natural resistance to tropical diseases (like tick-borne infections) and harsh climates, requiring protected indoor care.</div>
+        </div>
+    </div>
+
+    <!-- Question 56 -->
+    <div class="question-card" id="q56">
+        <div class="question-header">
+            <div class="question-text">56. When analyzing the weaknesses of the intensive livestock farming system, an agricultural economist notes that one of the main economic drawbacks is:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) It requires low initial investment capital.</li>
+            <li>B) It involves high initial investment capital.</li>
+            <li>C) It requires almost zero labour.</li>
+            <li>D) Animals are easily attacked by wild predators outdoors.</li>
+            <li>E) It has extremely low productivity per unit area.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) It involves high initial investment capital.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Building secure housing, installing automated feeding/watering fixtures, and purchasing concentrated feeds require substantial startup capital.</div>
+        </div>
+    </div>
+
+    <!-- Question 57 -->
+    <div class="question-card" id="q57">
+        <div class="question-header">
+            <div class="question-text">57. A livestock keeper using the extensive farming system faces several challenges. According to the text, which of the following is a major weakness of the extensive system?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) It is very easy to monitor and attend to individual animals.</li>
+            <li>B) Outbreaks of diseases are extremely simple to detect and control.</li>
+            <li>C) Uncontrolled movement of animals exposes them to predators.</li>
+            <li>D) It requires very tiny production spaces.</li>
+            <li>E) Feeding costs are exceptionally high due to purchased concentrates.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Uncontrolled movement of animals exposes them to predators.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Wandering across wide open ranges makes animals vulnerable to predators, theft, and stray disease vectors.</div>
+        </div>
+    </div>
+
+    <!-- Question 58 -->
+    <div class="question-card" id="q58">
+        <div class="question-header">
+            <div class="question-text">58. A farmer is planning to start a pig farming enterprise near a residential area. Based on the textbook recommendations for overcoming livestock farming challenges, where should the pig enterprise be located?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Inside the family living room</li>
+            <li>B) Far away from residential areas to avoid disturbing people</li>
+            <li>C) Directly in the middle of a school playground</li>
+            <li>D) On top of a multi-story urban apartment roof</li>
+            <li>E) Inside a water reservoir storage tank</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Far away from residential areas to avoid disturbing people</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Pig units generate significant odor and noise, necessitating proper distance buffers from human settlements to prevent nuisance complaints.</div>
+        </div>
+    </div>
+
+    <!-- Question 59 -->
+    <div class="question-card" id="q59">
+        <div class="question-header">
+            <div class="question-text">59. A livestock officer is discussing the semi-intensive farming system with a farmers' cooperative. What is noted as a key strength of this system regarding animal health?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Unlimited spread of severe diseases</li>
+            <li>B) Limited spread of diseases</li>
+            <li>C) Complete immunity to all tick-borne infections</li>
+            <li>D) Elimination of the need for any fencing</li>
+            <li>E) Zero requirement for fresh water</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Limited spread of diseases</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>By avoiding dense permanent overcrowding while keeping herds managed, semi-intensive systems control pathogen transmission better than pure range grazing.</div>
+        </div>
+    </div>
+
+    <!-- Question 60 -->
+    <div class="question-card" id="q60">
+        <div class="question-header">
+            <div class="question-text">60. When choosing a suitable livestock farming system, a farmer must evaluate several factors. Which of the following is specifically highlighted in the text as a determining factor?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) The political party of the district commissioner</li>
+            <li>B) The availability of space</li>
+            <li>C) The favorite color of the farmer's household members</li>
+            <li>D) The brand of fertilizer used in neighboring crop fields</li>
+            <li>E) The export tariff on coffee beans</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) The availability of space</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Land acreage and spatial availability dictate whether a farmer can adopt extensive grazing or must resort to intensive confinement.</div>
+        </div>
+    </div>
+
+    <!-- Question 61 -->
+    <div class="question-card" id="q61">
+        <div class="question-header">
+            <div class="question-text">61. A farm manager is explaining to trainees why the estate has transitioned from manual labour to using tractors, bulldozers, and combine harvesters. He defines farm mechanisation as the use of machinery to replace human power in farm operations in order to:</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Increase human fatigue and slow down production tasks.</li>
+            <li>B) Speed up production, accomplish tasks, and reduce fatigue and human labour.</li>
+            <li>C) Increase dependency on slow animal power.</li>
+            <li>D) Eliminate all agricultural output entirely.</li>
+            <li>E) Replace biological crop production with chemical synthesis.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Speed up production, accomplish tasks, and reduce fatigue and human labour.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Mechanization uses mechanical power sources to perform heavy or tedious farm tasks efficiently, saving time and human physical strain.</div>
+        </div>
+    </div>
+
+    <!-- Question 62 -->
+    <div class="question-card" id="q62">
+        <div class="question-header">
+            <div class="question-text">62. A large-scale cereal farmer wants to cultivate thousands of acres of land within a very short period before the rainy season begins. Which key importance of farm mechanisation enables this rapid land preparation?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Expansion of the production area</li>
+            <li>B) Reduction of tractor tyre lifespan</li>
+            <li>C) Elimination of soil organic matter</li>
+            <li>D) Increase in manual toiling work</li>
+            <li>E) Restriction of crop harvesting times</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) Expansion of the production area</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Machinery allows farmers to scale up operations and cultivate vast acreages that would be impossible using manual hand tools alone.</div>
+        </div>
+    </div>
+
+    <!-- Question 63 -->
+    <div class="question-card" id="q63">
+        <div class="question-header">
+            <div class="question-text">63. A government agricultural advisor is reviewing factors limiting mechanisation among smallholder farmers in Tanzania. Which of the following is identified as an economic limiting factor?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Steep mountain topography and deep valleys</li>
+            <li>B) Low incomes of smallholder farmers leading to low investment ability</li>
+            <li>C) Lack of interest in eating agricultural crops</li>
+            <li>D) Excessive rainfall during the harvest season</li>
+            <li>E) High availability of cheap manual tools</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Low incomes of smallholder farmers leading to low investment ability</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Poverty and limited financial liquidity prevent small-scale farmers from purchasing or renting costly tractors and motorized implements.</div>
+        </div>
+    </div>
+
+    <!-- Question 64 -->
+    <div class="question-card" id="q64">
+        <div class="question-header">
+            <div class="question-text">64. A tractor operator is performing a primary tillage operation intended to loosen soil for better plant root penetration, facilitate water infiltration, kill weeds, and incorporate soil organic matter. What is this operation called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Harrowing</li>
+            <li>B) Ploughing</li>
+            <li>C) Weeding</li>
+            <li>D) Dusting</li>
+            <li>E) Pruning</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Ploughing</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Ploughing is the primary tillage operation that cuts, shatters, and turns over the topsoil layer.</div>
+        </div>
+    </div>
+
+    <!-- Question 65 -->
+    <div class="question-card" id="q65">
+        <div class="question-header">
+            <div class="question-text">65. Following primary tillage, a farmer uses a disc harrow on the field as a secondary tillage operation. What is the specific purpose of harrowing?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) To compact the soil into hard concrete blocks</li>
+            <li>B) To provide a fine tilth through crushing of the soil for easy seed germination</li>
+            <li>C) To dig deep drainage pits for livestock waste</li>
+            <li>D) To harvest cereal grains automatically</li>
+            <li>E) To extract milk from dairy cow udders</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) To provide a fine tilth through crushing of the soil for easy seed germination</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Harrowing breaks down large clods left by the plough, creating a smooth seedbed tilth ideal for delicate seeds.</div>
+        </div>
+    </div>
+
+    <!-- Question 66 -->
+    <div class="question-card" id="q66">
+        <div class="question-header">
+            <div class="question-text">66. A large-scale maize farmer uses a tractor-mounted planter calibrated to a specific crop spacing requirement. What is the primary advantage of using a mechanised planter over manual sowing?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) It wastes more seeds per hole.</li>
+            <li>B) It minimizes the waste of seeds and ensures optimum spacing.</li>
+            <li>C) It requires hundreds of manual labourers to walk behind it.</li>
+            <li>D) It prevents any weed seeds from ever growing.</li>
+            <li>E) It converts maize plants into root crops.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) It minimizes the waste of seeds and ensures optimum spacing.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Precision planters drop exact seed quantities at uniform depths and distances, optimizing plant population density.</div>
+        </div>
+    </div>
+
+    <!-- Question 67 -->
+    <div class="question-card" id="q67">
+        <div class="question-header">
+            <div class="question-text">67. A commercial potato and root crop farmer needs to harvest tubers efficiently without manual digging. Which machine is specifically used for harvesting crops like sweet potatoes and round potatoes?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Combine harvester</li>
+            <li>B) Roots and tuber lifter</li>
+            <li>C) Knapsack sprayer</li>
+            <li>D) Hand duster</li>
+            <li>E) Soil auger</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Roots and tuber lifter</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Root and tuber lifters scoop beneath subterranean crops, raising tubers cleanly to the surface with minimal damage.</div>
+        </div>
+    </div>
+
+    <!-- Question 68 -->
+    <div class="question-card" id="q68">
+        <div class="question-header">
+            <div class="question-text">68. A dairy farm with hundreds of milking cows installs automatic milking machines. Under what condition is mechanised milking most appropriately applied?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) When the farmer has only one pet goat.</li>
+            <li>B) When a farmer has many milking animals.</li>
+            <li>C) When there is no electricity or mechanical power on the farm.</li>
+            <li>D) When milking needs to be done by human hands using a panga.</li>
+            <li>E) When the cows are raised under an extensive nomadic system.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) When a farmer has many milking animals.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Machine milking is economically justified and efficient primarily in large herds where manual milking would take excessive time and labor.</div>
+        </div>
+    </div>
+
+    <!-- Question 69 -->
+    <div class="question-card" id="q69">
+        <div class="question-header">
+            <div class="question-text">69. When reviewing the limitations of farm mechanisation, an extension officer notes that land features such as mountains, hills, valleys, and steep slopes fall under which category of limiting factors?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Economic factors</li>
+            <li>B) Technical and educational factors</li>
+            <li>C) Topographical factors</li>
+            <li>D) Biological factors</li>
+            <li>E) Chemical factors</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Topographical factors</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Topography (such as steep slopes or rocky terrain) restricts tractor maneuverability and increases rollover risks, hindering mechanization.</div>
+        </div>
+    </div>
+
+    <!-- Question 70 -->
+    <div class="question-card" id="q70">
+        <div class="question-header">
+            <div class="question-text">70. To motivate farmers to invest in mechanised large-scale agricultural production, the Tanzanian government provides a specific financial incentive. According to the text, what is this incentive?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Free tractors distributed to every citizen</li>
+            <li>B) Loans at relatively low interest rates</li>
+            <li>C) Complete tax exemption on imported petroleum</li>
+            <li>D) Direct cash grants with zero repayment requirements</li>
+            <li>E) Subsidies for purchasing hand hoes only</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Loans at relatively low interest rates</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Accessible credit facilities with low interest rates encourage farmers to acquire capital-intensive machinery and farm tools.</div>
+        </div>
+    </div>
+
+    <!-- Question 71 -->
+    <div class="question-card" id="q71">
+        <div class="question-header">
+            <div class="question-text">71. A student is learning about the classification of devices used in farming. He reads about a simple device with very few immovable parts rigidly connected together, whose functioning is facilitated by the movement of human hands. What is this device called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A machine</li>
+            <li>B) An implement</li>
+            <li>C) A tool</li>
+            <li>D) An engine</li>
+            <li>E) A tractor</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) A tool</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Hand tools are simple handheld implements powered entirely by human muscle energy with minimal or no complex moving mechanical components.</div>
+        </div>
+    </div>
+
+    <!-- Question 72 -->
+    <div class="question-card" id="q72">
+        <div class="question-header">
+            <div class="question-text">72. A farm worker is using a multipurpose tool with a short handle and a long blade sharpened on one side, used for cutting wood, small bushes, harvesting sugarcane, and chopping wood for tool handles. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) An axe</li>
+            <li>B) A machete (panga)</li>
+            <li>C) A mattock</li>
+            <li>D) A forked hoe</li>
+            <li>E) A rake</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A machete (panga)</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The panga (machete) is an essential tropical farm tool used for clearing bush, cutting stakes, harvesting thick stems, and general utility work.</div>
+        </div>
+    </div>
+
+    <!-- Question 73 -->
+    <div class="question-card" id="q73">
+        <div class="question-header">
+            <div class="question-text">73. A farmer needs to dig in hard, stony, and wet clay soils, as well as remove rhizomatous weeds like couch grass. Which basic farm tool is best suited for this task?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A hand hoe</li>
+            <li>B) A forked hoe</li>
+            <li>C) A garden trowel</li>
+            <li>D) A slasher</li>
+            <li>E) A watering can</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A forked hoe</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The forked hoe features prongs that penetrate hard or stony ground more easily than solid blades and efficiently unearth root weeds.</div>
+        </div>
+    </div>
+
+    <!-- Question 74 -->
+    <div class="question-card" id="q74">
+        <div class="question-header">
+            <div class="question-text">74. A gardener is preparing nursery beds and transplanting delicate tomato seedlings. Which tool with a boat-like blade and a short handle is commonly used for lifting out seedlings and preparing shallow holes?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A spade</li>
+            <li>B) A shovel</li>
+            <li>C) A hand trowel</li>
+            <li>D) A manure fork</li>
+            <li>E) A pruning saw</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) A hand trowel</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A hand trowel is a small scoop-like tool designed for light digging, planting seedlings, and applying fertilizer in restricted spaces.</div>
+        </div>
+    </div>
+
+    <!-- Question 75 -->
+    <div class="question-card" id="q75">
+        <div class="question-header">
+            <div class="question-text">75. An agronomist needs to collect undisturbed soil samples from a field for laboratory soil analysis. Which specific tool consisting of a long handle and a drum with side cutters and claws should he use?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A soil auger</li>
+            <li>B) A spring balance</li>
+            <li>C) A hand duster</li>
+            <li>D) A knapsack sprayer</li>
+            <li>E) A wheelbarrow</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) A soil auger</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A soil auger bores into the ground to retrieve core soil samples from various depths for physical and chemical testing.</div>
+        </div>
+    </div>
+
+    <!-- Question 76 -->
+    <div class="question-card" id="q76">
+        <div class="question-header">
+            <div class="question-text">76. A livestock manager needs to permanently identify cattle in the herd by pressing a heated metal plate attached to a long handle against the animal's skin. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) An ear notcher</li>
+            <li>B) A tattooing plier</li>
+            <li>C) A branding iron</li>
+            <li>D) An ear tagging plier</li>
+            <li>E) A burdizzo</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) A branding iron</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A branding iron leaves a permanent identification mark on livestock hide when applied hot (or via freeze-branding).</div>
+        </div>
+    </div>
+
+    <!-- Question 77 -->
+    <div class="question-card" id="q77">
+        <div class="question-header">
+            <div class="question-text">77. A livestock keeper wants to perform a bloodless (closed) castration on a bull calf by crushing the spermatic cord and blood vessels between testicles and the body without breaking the skin. Which tool should he use?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A burdizzo</li>
+            <li>B) A rubber ring elastrator</li>
+            <li>C) A branding iron</li>
+            <li>D) An ear notcher</li>
+            <li>E) A surgical scalpel</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) A burdizzo</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The burdizzo clamp securely crushes the blood vessels and spermatic cords without cutting the skin, safely causing testicular atrophy.</div>
+        </div>
+    </div>
+
+    <!-- Question 78 -->
+    <div class="question-card" id="q78">
+        <div class="question-header">
+            <div class="question-text">78. A farm worker is maintaining crop protection equipment after applying agrochemicals. What crucial maintenance step must be taken immediately after using a knapsack sprayer or sprinkler to prevent nozzle clogging?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Coat the exterior with heavy motor grease.</li>
+            <li>B) Leave it exposed to direct sunlight to dry.</li>
+            <li>C) Unblock clogged nozzles by cleaning with water immediately after use.</li>
+            <li>D) Sharpen the nozzle edges with a file.</li>
+            <li>E) Submerge the entire tank in engine oil.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Unblock clogged nozzles by cleaning with water immediately after use.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Washing and flushing sprayers immediately prevents chemical residues from drying, hardening, and permanently clogging fine nozzles.</div>
+        </div>
+    </div>
+
+    <!-- Question 79 -->
+    <div class="question-card" id="q79">
+        <div class="question-header">
+            <div class="question-text">79. A farmer is organizing the tool store and reviews the rules for maintaining basic farm hand tools. Which of the following is a correct storage and maintenance rule?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Leave cutting tools outdoors in the rain to prevent dust accumulation.</li>
+            <li>B) Store tools in the shade or store after use and never leave them outdoors.</li>
+            <li>C) Never sharpen cutting tools like machetes and hoes.</li>
+            <li>D) Keep moving parts completely unlubricated to increase friction.</li>
+            <li>E) Fix loose handles loosely so they detach easily.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Store tools in the shade or store after use and never leave them outdoors.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Proper tool care requires cleaning, drying, and storing tools indoors or in sheds away from moisture to prevent rust and damage.</div>
+        </div>
+    </div>
+
+    <!-- Question 80 -->
+    <div class="question-card" id="q80">
+        <div class="question-header">
+            <div class="question-text">80. A worker is using an equipment designed for transporting small loads such as soil, sand, manure, fertiliser, and farm produce over short distances within the farm, featuring a container, rubber tyres, handles, and a stand. What is this equipment?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A knapsack sprayer</li>
+            <li>B) A spring balance</li>
+            <li>C) A wheelbarrow</li>
+            <li>D) A watering can</li>
+            <li>E) A soil auger</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) A wheelbarrow</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A wheelbarrow provides balanced wheel-supported leverage for moving heavy bulk materials across short distances on the farm.</div>
+        </div>
+    </div>
+
+    <!-- Question 81 -->
+    <div class="question-card" id="q81">
+        <div class="question-header">
+            <div class="question-text">81. A farmer needs to weigh small farm inputs and produce such as seeds and vegetables on the farm. Which equipment featuring reading scales and a hook for hanging materials is used?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A soil auger</li>
+            <li>B) A spring balance</li>
+            <li>C) A hand duster</li>
+            <li>D) A knapsack sprayer</li>
+            <li>E) A hose pipe</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A spring balance</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A spring balance uses an internal calibrated spring to measure the weight of suspended bags or produce items.</div>
+        </div>
+    </div>
+
+    <!-- Question 82 -->
+    <div class="question-card" id="q82">
+        <div class="question-header">
+            <div class="question-text">82. A nursery manager is applying water to seedbeds in the form of fine droplets using a container with an elongated, perforated mouthpiece. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A hose pipe</li>
+            <li>B) A sprinkler</li>
+            <li>C) A watering can</li>
+            <li>D) A knapsack sprayer</li>
+            <li>E) A shovel</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) A watering can</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A watering can distributes water gently through a rose (perforated nozzle) to prevent washing away delicate seeds or damaging young seedlings.</div>
+        </div>
+    </div>
+
+    <!-- Question 83 -->
+    <div class="question-card" id="q83">
+        <div class="question-header">
+            <div class="question-text">83. A worker is pruning perennial crops such as coffee and citrus trees using a slightly curved blade with a serrated sharp edge on the curved side. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A secateur</li>
+            <li>B) A pruning saw</li>
+            <li>C) A trimming shear</li>
+            <li>D) A pruning hook</li>
+            <li>E) A slasher</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A pruning saw</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A pruning saw is designed for cutting thicker branches cleanly without crushing plant tissue during orchard maintenance.</div>
+        </div>
+    </div>
+
+    <!-- Question 84 -->
+    <div class="question-card" id="q84">
+        <div class="question-header">
+            <div class="question-text">84. A livestock worker is using a tool that looks like a plier with V-shaped cutting jaws to make specific notches on the edges of an animal's ear for identification records. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) An ear tagging plier</li>
+            <li>B) A tattooing plier</li>
+            <li>C) An ear notcher (notching plier)</li>
+            <li>D) A branding iron</li>
+            <li>E) A burdizzo</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) An ear notcher (notching plier)</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>An ear notcher clips standardized V-shaped patterns out of livestock ears to maintain permanent numerical herd identification.</div>
+        </div>
+    </div>
+
+    <!-- Question 85 -->
+    <div class="question-card" id="q85">
+        <div class="question-header">
+            <div class="question-text">85. A farmer is applying powdery chemical dust to crop plants and animals using a metal container fitted with a pump inside, a protruding small pipe, and a nozzle. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A knapsack sprayer</li>
+            <li>B) A hand duster</li>
+            <li>C) A watering can</li>
+            <li>D) A spring balance</li>
+            <li>E) A soil auger</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A hand duster</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A hand duster uses a manual air pump to blow dry powder formulations onto crops or livestock for pest control.</div>
+        </div>
+    </div>
+
+    <!-- Question 86 -->
+    <div class="question-card" id="q86">
+        <div class="question-header">
+            <div class="question-text">86. A worker needs to lift, invert, and mix sand, water, and cement in masonry works using a tool with a slightly curved blade and a pointed tip. What is this tool?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A shovel</li>
+            <li>B) A spade</li>
+            <li>C) A rake</li>
+            <li>D) A manure fork</li>
+            <li>E) A garden fork</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) A shovel</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A shovel features an upturned curved blade optimized for lifting, shifting, and mixing loose materials like concrete, sand, and soil.</div>
+        </div>
+    </div>
+
+    <!-- Question 87 -->
+    <div class="question-card" id="q87">
+        <div class="question-header">
+            <div class="question-text">87. A groundskeeper is trimming hedges and shrubs on the farm using a tool that looks like a pair of large scissors with wooden, metal, or plastic handles. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Secateurs</li>
+            <li>B) Pruning shears (Trimming shear)</li>
+            <li>C) A sickle</li>
+            <li>D) A slasher</li>
+            <li>E) A machete</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Pruning shears (Trimming shear)</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Trimming shears function like large scissor blades to shape hedges, ornamental bushes, and soft foliage neatly.</div>
+        </div>
+    </div>
+
+    <!-- Question 88 -->
+    <div class="question-card" id="q88">
+        <div class="question-header">
+            <div class="question-text">88. A farmer is harvesting cereal crops and cutting grasses for feeding animals using a curved iron blade with a small hard-toothed edge and a short wooden handle. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A slasher</li>
+            <li>B) A sickle</li>
+            <li>C) A panga</li>
+            <li>D) An axe</li>
+            <li>E) A mattock</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A sickle</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A sickle has a curved serrated blade designed for manual harvesting of cereal grains and cutting animal fodder.</div>
+        </div>
+    </div>
+
+    <!-- Question 89 -->
+    <div class="question-card" id="q89">
+        <div class="question-header">
+            <div class="question-text">89. When maintaining tools with moving parts such as secateurs and wheelbarrows, what specific maintenance action should be performed to reduce friction?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Wash them in boiling sulfuric acid.</li>
+            <li>B) Grease the moving parts.</li>
+            <li>C) Weld the moving parts firmly together so they cannot move.</li>
+            <li>D) Submerge them in dry sand.</li>
+            <li>E) Paint the moving joints with thick enamel paint.</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Grease the moving parts.</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Lubricating joints and bearings with oil or grease reduces mechanical friction, wear, and rust accumulation.</div>
+        </div>
+    </div>
+
+    <!-- Question 90 -->
+    <div class="question-card" id="q90">
+        <div class="question-header">
+            <div class="question-text">90. A livestock keeper uses a tool to stretch a strong rubber ring and fix it around the scrotum of a bull calf above the testicles to cut off blood circulation for castration and docking. What is this tool called?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A burdizzo</li>
+            <li>B) A rubber ring elastrator</li>
+            <li>C) A tattooing plier</li>
+            <li>D) A branding iron</li>
+            <li>E) An ear tagging plier</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) A burdizzo</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>An elastrator expands a tight rubber ring that, when released over the scrotum or tail, stops blood flow for bloodless removal.</div>
+        </div>
+    </div>
+
+    <!-- Question 91 -->
+    <div class="question-card" id="q91">
+        <div class="question-header">
+            <div class="question-text">91. An agricultural instructor in Tanzania is preparing a comprehensive final examination covering multiple Form One chapters. He wants to test students on the economic importance of agriculture. Based on the 2019 Bank of Tanzania report data in the textbook, what was the primary growth driver and share of GDP contributed by agriculture?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) 8.5 percent of GDP</li>
+            <li>B) 14.3 percent of GDP</li>
+            <li>C) 26.5 percent of GDP</li>
+            <li>D) 42.0 percent of GDP</li>
+            <li>E) 65.0 percent of GDP</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) 14.3 percent of GDP</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Official statistics cited in the syllabus indicate agricultural contribution stood at approximately 14.3 percent of national GDP.</div>
+        </div>
+    </div>
+
+    <!-- Question 92 -->
+    <div class="question-card" id="q92">
+        <div class="question-header">
+            <div class="question-text">92. A student is analyzing the relationship between agricultural subjects and mathematics. If a farmer possesses a piece of land measuring 10,000 m² and uses a standard maize spacing of 90 cm by 30 cm, what is the calculated area occupied by one single plant in square meters after unit conversion?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) 0.09 m²</li>
+            <li>B) 0.27 m²</li>
+            <li>C) 0.90 m²</li>
+            <li>D) 2.70 m²</li>
+            <li>E) 30.00 m²</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) 0.27 m²</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Multiplying row spacing ($0.9\text{ m}$) by plant spacing ($0.3\text{ m}$) gives the allocation area per individual plant ($0.27\text{ m}^2$).</div>
+        </div>
+    </div>
+
+    <!-- Question 93 -->
+    <div class="question-card" id="q93">
+        <div class="question-header">
+            <div class="question-text">93. A regional agricultural planner is assessing Tanzania's livestock potential. According to the text, Tanzania holds what rank in livestock population in Africa?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) First largest country after Egypt</li>
+            <li>B) Second largest country after Ethiopia</li>
+            <li>C) Third largest country after Kenya</li>
+            <li>D) Fourth largest country after South Africa</li>
+            <li>E) Fifth largest country after Nigeria</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Second largest country after Ethiopia</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Tanzania boasts one of the largest livestock populations on the African continent, ranking second only to Ethiopia.</div>
+        </div>
+    </div>
+
+    <!-- Question 94 -->
+    <div class="question-card" id="q94">
+        <div class="question-header">
+            <div class="question-text">94. A crop specialist is studying the botanical families of agricultural plants. Which family includes cereal crops and cultivated forage crops characterized by herbaceous plants with hollow cylindrical stems closed at nodes and fibrous roots?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Leguminoseae family</li>
+            <li>B) Gramineae (Poaceae) family</li>
+            <li>C) Solanaceae family</li>
+            <li>D) Malvaceae family</li>
+            <li>E) Compositae family</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Gramineae (Poaceae) family</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The grass family (Gramineae/Poaceae) includes all cereals and pasture grasses, featuring jointed stems and fibrous root networks.</div>
+        </div>
+    </div>
+
+    <!-- Question 95 -->
+    <div class="question-card" id="q95">
+        <div class="question-header">
+            <div class="question-text">95. A farm enterprise manager is reviewing pig categories based on slaughter weight. If a pig reaches a weight between 81 kg and 95 kg, how is it classified?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Porker</li>
+            <li>B) Cutter</li>
+            <li>C) Baconer</li>
+            <li>D) Heavy hog</li>
+            <li>E) Larder</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: C) Baconer</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Pigs reaching 81 kg to 95 kg fall under the standard heavier baconer market classification.</div>
+        </div>
+    </div>
+
+    <!-- Question 96 -->
+    <div class="question-card" id="q96">
+        <div class="question-header">
+            <div class="question-text">96. A student is examining livestock breeds and notes that the Ankole cattle breed originates from Rwanda, Burundi, and Western Uganda, and belongs to a larger group known as Sanga. How is the Sanga group genetically constituted?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A pure exotic European temperate breed</li>
+            <li>B) A cross breed between longhorn humpless and humped Zebu cattle</li>
+            <li>C) A pure Asian dairy breed</li>
+            <li>D) A cross between poultry and pigs</li>
+            <li>E) A wild forest buffalo species</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A cross breed between longhorn humpless and humped Zebu cattle</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>The Sanga cattle group represents historical indigenous African hybrids combining humpless longhorn and humped Zebu genetics.</div>
+        </div>
+    </div>
+
+    <!-- Question 97 -->
+    <div class="question-card" id="q97">
+        <div class="question-header">
+            <div class="question-text">97. An extension worker is training farmers on soil science and livestock interaction. The text notes that out of 50 million hectares suitable for livestock keeping in Tanzania, a large portion cannot be used mainly due to infestation by which insect?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Tsetse fly</li>
+            <li>B) East Coast Fever tick</li>
+            <li>C) Aphids</li>
+            <li>D) Armyworms</li>
+            <li>E) Weevils</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) Tsetse fly</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Tsetse flies transmit trypanosomiasis (nagana), rendering vast tracts of potential grazing land in Tanzania unusable for livestock.</div>
+        </div>
+    </div>
+
+    <!-- Question 98 -->
+    <div class="question-card" id="q98">
+        <div class="question-header">
+            <div class="question-text">98. A farm mechanic is distinguishing between farm tools, equipment, and implements. He defines an implement as a complex gear consisting of several moving parts connected together that work on their own and are in most cases connected to a machine. Which of the following is given as a classic example of an implement connected to a tractor?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) A hand hoe</li>
+            <li>B) A disc plough</li>
+            <li>C) A panga</li>
+            <li>D) A wheelbarrow</li>
+            <li>E) A spring balance</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) A disc plough</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>A disc plough is a formal tractor-mounted implement engineered to perform heavy primary tillage tasks.</div>
+        </div>
+    </div>
+
+    <!-- Question 99 -->
+    <div class="question-card" id="q99">
+        <div class="question-header">
+            <div class="question-text">99. A geography and agriculture teacher explains how climate and weather influence farming operations. In relation to crop production classification, crops like cotton, sisal, jute, and kenaf are grown specifically for what purpose?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Their edible grains and seeds</li>
+            <li>B) Their fiber</li>
+            <li>C) Their milky latex sap</li>
+            <li>D) Their medicinal organic compounds</li>
+            <li>E) Their aromatic food flavoring</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: B) Their fiber</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Fiber crops such as cotton, sisal, jute, and kenaf are cultivated for structural plant fibers used in textiles, ropes, and sacks.</div>
+        </div>
+    </div>
+
+    <!-- Question 100 -->
+    <div class="question-card" id="q100">
+        <div class="question-header">
+            <div class="question-text">100. A school agricultural club is setting up a demonstration plot.Y They want to plant a legume inter-cropped with maize to improve soil fertility through nitrogen fixation, following the inter-cropping principles outlined in Chapter Three. Which pairing represents a recommended inter-cropping combination from the text?</div>
+            <button class="status-btn">Not Reviewed</button>
+        </div>
+        <ul class="options-list">
+            <li>A) Maize with pigeon peas</li>
+            <li>B) Maize continuous monoculture</li>
+            <li>C) Cotton with heavy machinery only</li>
+            <li>D) Sorghum with continuous fallow</li>
+            <li>E) Sunflower with zero rotation</li>
+        </ul>
+        <button class="reveal-btn" onclick="toggleAnswer(this)">Show Answer and Explanation</button>
+        <div class="answer-section">
+            <div class="answer-label">Answer: A) Maize with pigeon peas</div>
+            <div class="explanation-label">Explanation:</div>
+            <div>Pairing maize with leguminous pigeon peas is a classic agronomic inter-cropping practice that balances nitrogen uptake and soil enrichment.</div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function toggleAnswer(button) {
+        const card = button.closest('.question-card');
+        const statusBtn = card.querySelector('.status-btn');
+        
+        card.classList.toggle('active');
+        
+        if (card.classList.contains('active')) {
+            button.textContent = 'Hide Answer and Explanation';
+            // Mark as reviewed as soon as the answer is expanded/viewed
+            statusBtn.textContent = 'Reviewed';
+            statusBtn.classList.add('reviewed');
+        } else {
+            button.textContent = 'Show Answer and Explanation';
+        }
+    }
+</script>
+</body>
+</html>
